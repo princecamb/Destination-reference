@@ -1,0 +1,14 @@
+#
+#Tue Jul 08 04:42:44 UTC 2025
+sap.applicationdevelopment.actions.enabled=true
+Description=SAP Build Apps Runtime
+sap.processautomation.enabled=true
+HTML5.ForwardAuthToken=true
+WebIDEEnabled=true
+URL=https\://ede812adtrial-dev-employee-leave-approval-srv.cfapps.us10-001.hana.ondemand.com/odata/v4/my/
+Name=Employee-Leave-Portal-Actions-Destination
+sap.build.usage=odata_gen
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=NoAuthentication
+ProxyType=Internet
