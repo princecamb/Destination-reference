@@ -1,0 +1,20 @@
+#mail.password=<< Existing password/certificate removed on export >>
+#
+#Mon Jul 14 06:29:26 UTC 2025
+mail.smtp.ssl.trust=*
+mail.smtp.port=587
+mail.bpm.send.disabled=false
+mail.user=prince.camb100@gmail.com
+mail.smtp.from=prince.camb100@gmail.com
+mail.smtp.auth=true
+mail.smtp.starttls.enable=true
+mail.smtp.host=smtp.gmail.com
+Name=sap_process_automation_mail
+mail.smtp.ssl.enable=false
+Type=MAIL
+mail.smtp.ssl.checkserveridentity=false
+mail.transport.protocol=smtp
+Authentication=BasicAuthentication
+mail.smtp.starttls.required=true
+mail.description=mail destination
+ProxyType=Internet
