@@ -1,0 +1,15 @@
+#clientSecret=<< Existing password/certificate removed on export >>
+#
+#Thu Jul 17 12:01:42 UTC 2025
+tokenServiceURLType=Dedicated
+Description=Destination to trigger BPA wrokflow from UI5
+clientId=sb-33fc7a6e-3bb4-4fb4-ba8a-9c601f2b440c\!b451946|xsuaa\!b49390
+WebIDEEnabled=true
+tokenServiceURL=https\://40e2a2e8trial.authentication.us10.hana.ondemand.com/oauth/token
+URL=https\://spa-api-gateway-bpi-us-prod.cfapps.us10.hana.ondemand.com
+Name=spa_process_destination
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=OAuth2ClientCredentials
+AppgyverEnabled=true
+ProxyType=Internet
